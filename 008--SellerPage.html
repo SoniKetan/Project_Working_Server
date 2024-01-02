@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Sellers Page </title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+
+    <link rel="stylesheet" href="008--SellerPage.css">
+
+</head>
+<body>
+    <header>
+        <h1> Seller's Admin Page </h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form action="#">
+                    <label for="selPrice"> Selling Price :- </label><br>
+                    <input type="number" name="sellingPrice" id="selPrice"><br>
+
+                    <label for="proNam"> Product Name :- </label><br>
+                    <input type="text" name="productName" id="proNam"><br><br>
+                    <div>
+                        <button class="btn btn-secondary" id="btn"> Add Product </button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h2> Products :- </h2>
+            </div>
+            <div>
+                <ul id="receipt"></ul>
+            </div>
+            <section>
+                <div>
+                    <h2> Total Amount :- </h2>
+                </div>
+                <div>
+                    <ul id="tAmt"></ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="008--SellerPage.js"></script>
+</body>
+</html>

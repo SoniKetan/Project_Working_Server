@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+    background-color: blueviolet;
+    color: chartreuse;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: chocolate;
+}
+.card{
+    background-color: yellow;
+}
